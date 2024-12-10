@@ -45,14 +45,14 @@ To run this project:
 
 ## Dependencies
 This project requires the following Python libraries:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `sklearn`
-- `xgboost`
-- `imblearn`
-- `joblib`
+- scikit-learn==1.5.1
+imbalanced-learn==0.12.3
+fastapi==0.112.1
+uvicorn==0.30.6
+matplotlib==3.9.2
+seaborn==0.13.2
+python-multipart==0.0.9
+xgboost==2.1.1
 
 You can install the dependencies using pip:
 
